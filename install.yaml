@@ -3564,7 +3564,7 @@ spec:
               fieldPath: metadata.namespace
         - name: KYVERNO_SVC
           value: kyverno-svc
-        image: ajoop/kyverno:v1.4.1-72-g0b30aea3
+        image: ajoop/kyverno:my_tag1-3-g36dc6e37
         imagePullPolicy: IfNotPresent
         livenessProbe:
           failureThreshold: 2
